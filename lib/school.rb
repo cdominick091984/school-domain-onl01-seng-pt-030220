@@ -24,6 +24,6 @@ class School
     @roster
     sorted = {}
     @roster.sort_by { |grade, student| student }
-    binding.pry
+    #binding.pry
   end
 end
